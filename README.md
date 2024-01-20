@@ -8,7 +8,10 @@ I used the 2023 map local council boundaries provided by the UK's Open Geography
 
 # To create a shapefile for importing into Power BI
 Find shapefile that you want, for example, https://geoportal.statistics.gov.uk/datasets/ons::local-authority-districts-may-2023-boundaries-uk-bgc/explore
-Download as GeoJSON
+
+I would do the following in order to decraese the file size, subsequently improving loading time on Power BI:
+
+Download Map boundaries as GeoJSON
 
 -Open QGIS
 
