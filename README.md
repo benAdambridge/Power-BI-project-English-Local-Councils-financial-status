@@ -4,7 +4,7 @@ English Councils, as of January 2024, are coming under scrutiny due to their deb
 
 This project takes the Local Councils of England, determines their financial status - bankrupt, in financial risk, or neither, using government data - and maps them to create an interactive dashboard.
 
-I used the 2023 map local council boundaries provided by the UK's Open Geography Portal - https://geoportal.statistics.gov.uk/datasets/2f0b8074b6ab4af6a1ec30eb66317d12_0/explore.
+I used the 2023 map local council boundaries provided by the UK's Open Geography Portal (the latest data that I know of/ could find) - https://geoportal.statistics.gov.uk/datasets/2f0b8074b6ab4af6a1ec30eb66317d12_0/explore.
 
 # To create a shapefile for importing into Power BI
 Find shapefile that you want, for example, https://geoportal.statistics.gov.uk/datasets/ons::local-authority-districts-may-2023-boundaries-uk-bgc/explore
@@ -55,9 +55,14 @@ Find councils in financial risk data
 
 Find full details council data (Council name, Region etc., any extra info about the Councils you feel you need).
 - match to 'councils in financial risk data'
+- What I used to start me off - https://geoportal.statistics.gov.uk/datasets/f7cada9ef1fe4e0a879ad2ba867f4a7c_0/explore
 
 If it doesn't come with Region column then match this
--I had to get LAD22 match with LAD23, then match to Region by LAD22 download (was the most up to date I could find)
+- I had to get LAD22 match with LAD23, then match to Region by LAD22 download (was the most up to date I could find)
+- LAD 22 to Region - https://geoportal.statistics.gov.uk/datasets/78b348cd8fb04037ada3c862aa054428_0/explore
+- LAD 22 to LAD 23 - https://geoportal.statistics.gov.uk/datasets/175ab2113dbb4d8fa0b76b6e4246cac2_0/explore
+
+Add debt per person for each council by using the BBC's data, under the heading 'more about this story' - https://www.bbc.co.uk/news/uk-67707156
 
 # Presenting the data
 
