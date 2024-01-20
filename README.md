@@ -5,7 +5,7 @@ This project takes the Local Councils of England, determines their financial sta
 
 I used the 2023 map local council boundaries provided by the UK's Open Geography Portal - https://geoportal.statistics.gov.uk/datasets/2f0b8074b6ab4af6a1ec30eb66317d12_0/explore.
 
-#To create a shapefile for importing into Power BI#
+#To create a shapefile for importing into Power BI
 Find shapefile that you want, for example, https://geoportal.statistics.gov.uk/datasets/ons::local-authority-districts-may-2023-boundaries-uk-bgc/explore
 Download as GeoJSON
 Open QGIS
