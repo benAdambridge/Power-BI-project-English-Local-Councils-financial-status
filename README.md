@@ -8,25 +8,43 @@ I used the 2023 map local council boundaries provided by the UK's Open Geography
 # To create a shapefile for importing into Power BI
 Find shapefile that you want, for example, https://geoportal.statistics.gov.uk/datasets/ons::local-authority-districts-may-2023-boundaries-uk-bgc/explore
 Download as GeoJSON
-Open QGIS
-Layer
-Add Layer
-Add Vector Layer
-Click on three dots to pick the GeoJSON folder downloaded earlier
-Add
-Right click on the file under the ribbon left hand side named 'Layers'
-Export
-Save Feature As
-Press three dots next to File name and place this where you want it
-Change CRS to 'WGS84'
-Change Resize to 'YES'
-OK
-Should've saved as a Shapefile
-Open up 'mapshaper'
-Import what should be about 6 documents that QGIS just spewed out
-Export as TopoJSON into folder of choosing (power BI accepts TopoJSON shapefiles)
+
+-Open QGIS
+
+-Layer
+
+-Add Layer
+
+-Add Vector Layer
+
+-Click on three dots to pick the GeoJSON folder downloaded earlier
+
+-Add
+
+-Right click on the file under the ribbon left hand side named 'Layers'
+
+-Export
+
+-Save Feature As
+
+-Press three dots next to File name and place this where you want it
+
+-Change CRS to 'WGS84'
+
+-Change Resize to 'YES'
+
+-OK
+
+-Should've saved as a Shapefile
+
+-Open up 'mapshaper'
+
+-Import what should be about 6 documents that QGIS just spewed out
+
+-Export as TopoJSON into folder of choosing (power BI accepts TopoJSON shapefiles)
 - make sure to untick the box saying 'Save to Clipboard'
-Job done
+
+-Job done
 - use LAD name, LSOA name for the Location row in Power BI
 
 
