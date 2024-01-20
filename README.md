@@ -1,7 +1,8 @@
 # Power-BI-project-Local-Councils-financial-status _as of Jan 2024_
 
 English Councils, as of January 2024, are coming under scrutiny due to their debt totals, fuelled partly by taking on risky loans to make up for funding gaps due to austerity, straining their capabilities to provide local services.
-This project takes the Local Councils of England, determines their financial status - bankrupt, in financial risk, or neither - and maps them to create an interactive dashboard.
+
+This project takes the Local Councils of England, determines their financial status - bankrupt, in financial risk, or neither, using government data - and maps them to create an interactive dashboard.
 
 I used the 2023 map local council boundaries provided by the UK's Open Geography Portal - https://geoportal.statistics.gov.uk/datasets/2f0b8074b6ab4af6a1ec30eb66317d12_0/explore.
 
@@ -48,7 +49,7 @@ Download as GeoJSON
 - use LAD name, LSOA name for the Location row in Power BI
 
 
-#Collecting the data#
+# Collecting the data
 
 Find councils in financial risk data
 
@@ -57,4 +58,20 @@ Find full details council data (Council name, Region etc., any extra info about 
 
 If it doesn't come with Region column then match this
 -I had to get LAD22 match with LAD23, then match to Region by LAD22 download (was the most up to date I could find)
+
+# Presenting the data
+
+Select Shape Map
+
+Format visual
+- Map settings
+- Import JSON created earlier
+- This should present your map
+
+With your Council data now do what you like, remembering to put Council name into the Location field
+
+I then added some slicers, so that people can look at certain sections of the map only
+- like how many Local Councils are bankrupt in London
+
+I added a graph looking at the breakdown of councils financial status by Region.
 
