@@ -1,4 +1,4 @@
-# Power-BI-project-Local-Councils-financial-status _as of Jan 2024_
+# Power BI project Local Councils financial-status as of Jan 2024
 
 English Councils, as of January 2024, are coming under scrutiny due to their debt totals, fuelled partly by taking on risky loans to make up for funding gaps due to austerity, straining their capabilities to provide local services.
 
