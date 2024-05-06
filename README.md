@@ -5,7 +5,7 @@ English Councils, as of January 2024, are coming under scrutiny due to their deb
 This project takes the Local Councils of England, determines their financial status - bankrupt, in financial risk, or neither - using government data and maps them to create an interactive dashboard.
   - I used the 2023 map local council boundaries provided by the UK's Open Geography Portal (the latest data that I know of/ could find) - https://geoportal.statistics.gov.uk/datasets/2f0b8074b6ab4af6a1ec30eb66317d12_0/explore.
 
-![In a single picture](https://raw.githubusercontent.com/benAdambridge/R-SQL-NBA-data/main/Occurence%20of%20playoff%20scoring%20over%2020percent%20of%20games%20total%20points.png)
+![In a single picture](https://github.com/benAdambridge/Power-BI-project-English-Local-Councils-financial-status/blob/main/Council%20debt%20PowerBI%20dashboard%20screenshot.png)
 
 # To create a shapefile for importing into Power BI
 Find shapefile that you want, for example, https://geoportal.statistics.gov.uk/datasets/ons::local-authority-districts-may-2023-boundaries-uk-bgc/explore
